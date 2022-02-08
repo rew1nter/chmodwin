@@ -16,7 +16,7 @@ type chmod struct {
 
 func main() {
 	flag.Usage = func() {
-		fmt.Println("This can 'chmod 600' files in Windows\nusage:\n\tchmod key.pem\n\tchmod.exe key.pem")
+		fmt.Println("This can 'chmodwin 600' files in Windows\nusage:\n\tchmodwin key.pem\n\tchmodwin.exe key.pem")
 	}
 	flag.Parse()
 	if flag.NArg() > 1 {
