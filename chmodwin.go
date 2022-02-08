@@ -28,7 +28,7 @@ func main() {
 	}
 
 	filePath := flag.Args()[0]
-	//fmt.Println(filePath)
+	
 	c1 := chmod{
 		path: "icacls.exe",
 		args: []string{filePath, "/reset"},
