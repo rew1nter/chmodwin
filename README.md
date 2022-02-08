@@ -10,6 +10,6 @@ usage:
 ```
 
 # installation
-`go install -v https://github.com/rew1nter/chmodwin`
+`go get -v https://github.com/rew1nter/chmodwin`
 
 ## or download binary from releases
