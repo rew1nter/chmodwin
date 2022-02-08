@@ -1,5 +1,5 @@
 # why
-`chmod 600` for example pem file in windows. Then use it to ssh just like linux from your windows terminal.
+`chmod 600`, for example, .pem file in windows. Then use it to ssh just like linux from your windows terminal.
 
 # help
 $ chmod 
@@ -11,6 +11,6 @@ usage:
 ```
 
 # installation
-`go get -v https://github.com/rew1nter/chmodwin`
+```go get -v github.com/rew1nter/chmodwin```
 
 ## or download binary from releases
